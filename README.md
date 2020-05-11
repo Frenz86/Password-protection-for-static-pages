@@ -1,9 +1,3 @@
-# Password protection for static pages
-
-This simple HTML document helps you protecting static pages or whole websites with no server configuration required: you can now use Dropbox, Amazon S3 or any generic hosting service to host a private, password protected site.
-
-This small project is a byproduct of my [Tumbless blogging platform](https://github.com/matteobrusa/Tumbless) project.
-
 ## Setup
 
 0. Upload the `index.html` document and the background image to your static hosting service.
@@ -11,6 +5,8 @@ This small project is a byproduct of my [Tumbless blogging platform](https://git
 0. It will show "wrong password", never mind. Copy the section of the URL after the # sign.
 0. Create a folder with that name next to the `index.html` file
 0. Upload the content that you want to protect inside the folder
+
+To generate SHA1 go to http://www.sha1-online.com/
 
 The final structure will be:
 
