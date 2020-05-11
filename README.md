@@ -23,8 +23,3 @@ Pretty much secure, please consider that:
 0. If your hosting service offers directory listing, a visitor can bypass the protection.
 1. there's no protection against brute force attack. Pick a very long and hard to guess password. 
 2. The password's hash is part of the URI. __Enforce HTTPS__ to avoid man in the middle attacks.
-
-## Troubleshooting
-
-0. Test the [demo page](http://matteobrusa.github.io/Password-protection-for-static-pages/) in your browser with password 'secret'
-0. Deploy the whole repo on your hosting, and test again.
